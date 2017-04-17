@@ -1,0 +1,122 @@
+@import url("reset.css");
+.navbar{
+	height: 44px;
+	margin-bottom: 0;
+	border: none;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding:0 24px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-header a{
+	height: 44px;
+}
+.navbar-header a img{
+	margin-top: -10px;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: 0;
+}
+.banner img{
+	width: 100%;
+}
+.main{
+	height: 1110;
+	position: relative;
+}
+.main .col-md-4{
+	position: absolute;
+	top: 18px;
+	left: 105px;
+}
+.main h4{
+	width: 165px;
+	padding: 10px;
+	background-color: #187bca;
+	color: #FFF;
+	border: 1px #e9e9e9 solid;
+}
+.main h6{
+	width: 165px;
+	padding: 10px;
+	color: #187bca;
+	border: 1px #e9e9e9 solid;
+}
+.main .mod{
+	width: 848px;
+	height: 1064px;
+	border: 1px #e9e9e9 solid;
+	margin-top: 18px;
+	margin-left: 398px;
+}
+.main .mod .nav{
+	width: 848px;
+	border-bottom: 1px #e9e9e9 solid;
+}
+.main .mod .nav li{
+	float: left;
+}
+.main .mod .tr{
+	float: left;
+	width: 248px;
+	height: 288px;
+	margin-top: 36px;
+	margin-left: 22px;
+	border: 1px #e9e9e9 solid;
+	border-radius:5px ;
+	position: relative;
+}
+.main .mod .tr span{
+	border-radius: 5px;
+	border: 1px #e9e9e9 solid;
+	position: absolute;
+	right: 18px;
+	bottom: 16px;
+}
+.main .mod .tr span a{
+	padding: 10px 20px;
+}
+.main .mod .tr dl{
+	padding-top: 18px;
+	padding-left: 22px;
+}
+.main .mod .tr dl dt h5{
+	font-weight: bold;
+}
+.main .mod .tr dl dd{
+	width: 206px;
+	line-height: 20px;
+}
+.main .mod .tr ul{
+	margin-left: 50%;
+}
+.footer{
+	height: 297px;
+	background-color: #2f2f2f;
+	text-align: center;
+	padding-top: 30px;
+}
+.footer p{
+	position: fixed;
+	right: 25px;
+	bottom: 110px
+}
+.footer ul li:first-child{
+	font-size: 16px;
+}
+.footer ul li a{
+	color: #FFF;
+}
+.footer .food{
+	height: 69px;
+	background-color: #262626;
+	margin-top: 200px;
+}
+.footer .food a{
+	line-height: 66px;
+	color: #fff;
+}
